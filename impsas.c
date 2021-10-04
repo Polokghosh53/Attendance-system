@@ -50,7 +50,7 @@ int main()
 
 			for( i=0; i<strength; i++)
 			{
-				printf("ENTER %d STUDENT NAME:", i+1);
+				printf("Enter %d Student Name:", i+1);
 				// get name including space within
 				scanf("%c");
 				scanf("%s", &student[i].name);
@@ -58,7 +58,7 @@ int main()
 				scanf("%d",&student[i].rollno);
 
 				// store in the file
-				fprintf(file, "Roll no: %d\tName: %s\n", student[i].rollno, student[i].name);
+				fprintf(file, "Roll No: %d\tName: %s\n", student[i].rollno, student[i].name);
 			}
 
 			// close the file
